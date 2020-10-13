@@ -1,9 +1,24 @@
-h1{
+/* Styling for header bar */
+span{
+   color: transparent;
    font-family: 'Righteous', cursive;
    position: relative;
-   top: 75px;
-   left: -50px;
+   top: 20%;
+   left: 20%;
+   font-size: 75px;
    text-align: center;
+   font-weight: bold;
+   background-image: linear-gradient(
+      to right, 
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%
+   );
+   -webkit-background-clip: text;
 }
 h2{
    font-family: 'Kufam', cursive;
@@ -12,16 +27,11 @@ p{
    font-family: 'Raleway', sans-serif;
 }
 header{
-   color: whitesmoke;
    background-color: black;
-   text-align: center;
-   font-size: xx-large;
-   padding-top: 20px;
-   padding-bottom: 15px;
-   margin-top: -20px;
-   margin-left: -15px;
-   margin-right: -15px;
+   top: 0%;
+   width: 100%;
 }
+/* Styling for navbar */
 footer{
    position: fixed;
    bottom: 0%;
@@ -29,21 +39,6 @@ footer{
 }
 img{
    width: 250px;
-}
-.link{
-   color: red;
-}
-.clearfix::after{
-   content: " ";
-   display: block;
-   clear: both;
-}
-.container{
-   width: 1000px;
-   margin: 0 auto;
-}
-section{
-   float: left
 }
 .image{
    width: 300px;
