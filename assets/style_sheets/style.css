@@ -38,9 +38,7 @@ footer{
 img{
    width: 250px;
 }
-.image{
-   width: 300px;
-}
+
 .logo{
    width: 225px;
    height: 90px;
@@ -52,5 +50,8 @@ img{
    width: 400px;
 }
 .contact{
+   width: 300px;
+}
+.image{
    width: 300px;
 }
