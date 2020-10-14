@@ -1,5 +1,5 @@
 /* Styling for header bar */
-span.title{
+.title{
    color: transparent;
    font-family: 'Righteous', cursive;
    position: relative;
@@ -23,9 +23,6 @@ span.title{
 }
 h2{
    font-family: 'Kufam', cursive;
-}
-p{
-   font-family: 'Raleway', sans-serif;
 }
 header{
    background-color: black;
