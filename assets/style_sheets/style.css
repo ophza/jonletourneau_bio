@@ -38,7 +38,9 @@ footer{
 img{
    width: 250px;
 }
-
+.navbar-custom{
+   background-color: black;
+}
 .logo{
    width: 225px;
    height: 90px;
