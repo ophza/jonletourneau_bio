@@ -1,0 +1,11 @@
+
+.name{
+   font-weight: bolder;
+   font-variant: small-caps;
+   color: black;
+   font-family: 'Gruppo', cursive;
+   font-size: 50px;
+}
+p{
+   font-family: 'Cabin', sans-serif;
+}

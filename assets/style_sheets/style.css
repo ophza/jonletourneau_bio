@@ -21,8 +21,12 @@
    background-clip: inherit;
    -webkit-background-clip: text;
 }
-h2{
-   font-family: 'Kufam', cursive;
+.logo{
+   width: 225px;
+   height: 90px;
+   object-fit: cover;
+   object-position: center;
+   zoom: 2;
 }
 header{
    background-color: black;
@@ -40,20 +44,4 @@ img{
 }
 .navbar-custom{
    background-color: black;
-}
-.logo{
-   width: 225px;
-   height: 90px;
-   object-fit: cover;
-   object-position: center;
-   zoom: 2;
-}
-.bio{
-   width: 400px;
-}
-.contact{
-   width: 300px;
-}
-.image{
-   width: 300px;
 }
