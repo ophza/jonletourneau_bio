@@ -4,21 +4,26 @@
   <meta charset="UTF-8">
   <title>Student Bio</title>
   <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Gruppo&family=Righteous&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style_sheets/style.css">
-  <link rel="stylesheet" href="assets/style_sheets/bioStyle.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bioStyle.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
-    <div class="row" style="margin: auto">
-      <div class="col-lg-6">
-         <img class="logo" src="assets/images/logo.png">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <a class="navbar-brand" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link active" href="#">Biography <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </div>
       </div>
-      <div class="col-lg-6">
-         <span class="title">Biography</span>
-      </div>
-   </div>
+    </nav>
   </header>
 
   <img src="assets/images/theBoys.JPG" alt="A Photo Of The Boys">
@@ -35,19 +40,4 @@
     Fusce tincidunt ligula eget lacus dictum rutrum eget in turpis.
   </p>
 </body>
-<footer>
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-    <a class="navbar-brand" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link" href="contact.html">Contact</a>
-        <a class="nav-link active" href="#">Biography <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </div>
-    </div>
-  </nav>
-</footer>
 </html>

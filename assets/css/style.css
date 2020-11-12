@@ -1,0 +1,9 @@
+/* Styling for navbar */
+header{
+   position: fixed;
+   top: 0%;
+   width: 100%;
+}
+.navbar-custom{
+   background-color: #2D2D2D;
+}

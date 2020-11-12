@@ -20,7 +20,7 @@ ul li{
 }
 ul li a .fa{
    font-size: 40px;
-   color: #212529;
+   color: #2D2D2D;
    line-height: 80px;
    transition: 0.5s;
    padding-right: 14px;
@@ -30,7 +30,7 @@ ul li a span{
    margin: 0;
    position: absolute;
    top: 30px;
-   color: #212529;
+   color: #2D2D2D;
    letter-spacing: 4px;
    transition: 0.5s;
 }
@@ -80,11 +80,11 @@ ul li:hover span{
    color: #fff;
 }
 ul li:hover a{
-   background: #212529;
+   background: #2D2D2D;
 }
 ul li:hover a:before{
-   background: #373A3E;
+   background: #474747;
 }
 ul li:hover a:after{
-   background: #2C2E31;
+   background: #383838;
 }
