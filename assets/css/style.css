@@ -1,9 +1,21 @@
-/* Styling for navbar */
-header{
-   position: fixed;
-   top: 0%;
-   width: 100%;
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
+/* Styling for navbar */
 .navbar-custom{
    background-color: #2D2D2D;
+}
+/* Text Styling */
+.title{
+   font-family: 'Gruppo', cursive;
+   font-size: 55pt;
+}
+.sub-title{
+   font-family: 'Gruppo', cursive;
+   font-size: 30pt;
+}
+p{
+   font-family: 'Cabin', sans-serif;
 }

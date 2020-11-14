@@ -1,11 +1,70 @@
-
-.name{
-   font-weight: bolder;
-   font-variant: small-caps;
-   color: black;
-   font-family: 'Gruppo', cursive;
-   font-size: 50px;
+body{
+   background-color: #B2B2B2 !important;
 }
-p{
-   font-family: 'Cabin', sans-serif;
+main{
+   margin: 0 auto;
+   width: 90%;
+   color: #F2F2F2;
+}
+/* Outlines */
+.aboutMe, .skills{
+   background-color: #2D2D2D;
+}
+/* About me div styling */
+.aboutMe{
+   height: 635px;
+   width: 1020px;
+   position: relative;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   margin-left: 25%;
+}
+.aboutMeImg{
+   position: absolute;
+   bottom: -10px;
+   left: -370px;
+}
+.aboutMeBody{
+   position: absolute;
+   margin-right: 10%;
+   margin-left: 30%;
+   margin-top: 7%;
+}
+.name{
+   display: inline-block;
+   margin-left: 15px;
+}
+.location{
+   display: inline-block;
+   margin-left: 40px;
+}
+.abtMeTitle{
+   margin-bottom: 30px;
+}
+/* Skills div styling */
+.skills{
+   height: 550px;
+   width: 900px;
+   position: relative;
+   margin-bottom: 5%;
+   margin-right: 20%;
+   margin-left: 5%;
+}
+.skill-title{
+   margin-left: 15px;
+}
+.skillsImg{
+   position: absolute;
+   bottom: 0px;
+   right: -200px;
+}
+.skill-body{
+   text-align: center;
+   position: absolute;
+   left: 3%;
+   width: 300px;
+   margin-top: 7%;
+}
+.designDiv{
+   margin-top: 50px;
 }
