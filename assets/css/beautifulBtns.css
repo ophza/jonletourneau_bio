@@ -11,7 +11,7 @@ ul li{
    list-style: none;
    margin: 0 5px;
 }
-ul li a .fa{
+ul li a .fab, ul li a .fas{
    font-size: 40px;
    color: #2D2D2D;
    line-height: 80px;
