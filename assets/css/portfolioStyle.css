@@ -1,0 +1,59 @@
+body{
+   background-color: #f2f2f2 !important;
+}
+ul{
+   text-align: center;
+   display: block;
+   padding: 0;
+   margin: 0;
+   width: 100%;
+}
+ul li{
+   display: inline-block;
+   width: 24%;
+   margin-top: 10px;
+   margin-right: 2.5px;
+   margin-left: 2.5px;
+   text-align: center;
+}
+@media (max-width: 960px) and (min-width: 501px){
+   ul li {width: 45%;}
+}
+@media (max-width: 500px){
+   ul li {width: 100%;}
+}
+.git{
+   position: absolute;
+   bottom: 20%;
+   left: 0%;
+   padding: 5px;
+}
+.site{
+   position: absolute;
+   bottom: 0%;
+   left: 0%;
+   padding: 5px;
+}
+.fab, .fas{
+   font-size: 50px;
+}
+.text, .sub-title{
+   color: rgba(242, 242, 242, 0);
+}
+.projCard{
+   position: relative;
+   background: rgba(0, 0, 0, 0);
+   height: 275px;
+   transition: 0.7s;
+   border-style: ridge;
+   border-color: #2D2D2D;
+}
+li:hover .projCard{
+   background: rgba(0, 0, 0, 0.5);
+}
+li:hover .text{
+   color: rgba(242, 242, 242, 1);
+}
+li:hover .sub-title{
+   color: rgba(242, 242, 242);
+}

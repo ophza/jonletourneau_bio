@@ -8,8 +8,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Gruppo&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/portfolioStyle.css">
+  <link rel="stylesheet" href="assets/css/portfolioImages.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
 <body>
@@ -29,116 +31,59 @@
       </div>
     </nav>
   </header>
-  <div class="row" style="margin: auto">
-    <!-- Project 1 Card -->
-    <div class="col-lg-2">
-      <div class="card h-100 text-white bg-dark mb-3" style="width: 18rem;">
-        <img src="assets/images/parkImg.png" class="card-img-top" alt="image of main page">
-        <div class="card-body">
-          <h5 class="card-title">National Park Dashboard</h5>
-          <p class="card-text">
-            This site allows the user to select a Colorado national park. They can see some base info of the park along with some images.
-            The user can also see the weather forecast for the park of their choice.
-          </p>
-          <br>
-          <p>
-            I worked alongside four other developers to make this, where I focused on the JS and some CSS for the weather page.
-          </p>
-        </div>
-        <div class="card-footer">
-          <a href="https://tmessall.github.io/dubootcampProjectOne/index.html" class="btn btn-light btn-block cardButton">Website</a>
-          <a href="https://github.com/tmessall/dubootcampProjectOne.git" class="btn btn-light btn-block cardButton">Git Repo</a>
-        </div>
-      </div>
-    </div>
-    <!-- Password Generator Card -->
-    <div class="col-lg-2">
-      <div class="card h-100 text-white bg-dark mb-3" style="width: 18rem;">
-        <img src="assets/images/passwordGen.png" class="card-img-top" alt="image of main page">
-        <div class="card-body">
-          <h5 class="card-title">Password Generator</h5>
-          <p class="card-text">
-            This is a password generator where the user can select the constraints for the password (such as length, what kind of characters they want, and so on)
-            then using those constraints the site will generate a random password and put it into a text space for the user to copy.
-          </p>
-        </div>
-        <div class="card-footer">
-          <a href="https://ophza.github.io/javascript_password_generator/" class="btn btn-light btn-block cardButton">Website</a>
-          <a href="https://github.com/ophza/javascript_password_generator.git" class="btn btn-light btn-block cardButton">Git Repo</a>
-        </div>
-      </div>
-    </div>
-    <!-- Weather Dashboard Card -->
-    <div class="col-lg-2">
-      <div class="card h-100 text-white bg-dark mb-3" style="width: 18rem;">
-        <img src="assets/images/weatherBoard.png" class="card-img-top" alt="image of main page">
-        <div class="card-body">
-          <h5 class="card-title">Weather Dashboard</h5>
-          <p class="card-text">
-            A site that allows the user to search for a city and get the weather info of that city. It will show the current weather along with the forecast for the next 5 days.
-            The searched cities will be saved allowing the user to get the info for that city without having to search for it again.
-          </p>
-        </div>
-        <div class="card-footer">
-          <a href="https://ophza.github.io/weather_dashboard/" class="btn btn-light btn-block cardButton">Website</a>
-          <a href="https://github.com/ophza/weather_dashboard.git" class="btn btn-light btn-block cardButton">Git Repo</a>
-        </div>
-      </div>
-    </div>
-    <!-- Project 2 Card -->
-    <div class="col-lg-2">
-      <div class="card h-100 text-white bg-dark mb-3" style="width: 18rem;">
-        <img src="assets/images/campifyLogo.png" class="card-img-top" alt="image of main page">
-        <div class="card-body">
-          <h5 class="card-title">Campify</h5>
-          <p class="card-text">
-            A site that allows a user to find campsites near them, pin campsites to their profile, and plan trips/events using a calendar that is on their profile page.
-          </p>
-        </div>
-        <div class="card-footer">
-          <a href="https://campifygroupproject.herokuapp.com/" class="btn btn-light btn-block cardButton">Website</a>
-          <a href="https://github.com/andreaives/campify.git" class="btn btn-light btn-block cardButton">Git Repo</a>
-        </div>
-      </div>
-    </div>
-    <!-- README generator card -->
-    <div class="col-lg-2">
-      <div class="card h-100 text-white bg-dark mb-3" style="width: 18rem;">
-        <img src="assets/images/readme-logo.png" class="card-img-top" alt="image of main page">
-        <div class="card-body">
-          <h5 class="card-title">README Generator</h5>
-          <p class="card-text">
-            A JS application that allows the user to be able to create a README by answering prompts asked by the app.
-          </p>
-        </div>
-        <div class="card-footer">
-          <a href="#" class="btn btn-light btn-block cardButton">Unavailable</a>
-          <a href="https://github.com/ophza/README_generator.git" class="btn btn-light btn-block cardButton">Git Repo</a>
-        </div>
-      </div>
-    </div>
 
-  </div>
+  <ul class="cardDeck">
+    <li>
+      <div class="weatherDash">
+        <div class="projCard">
+          <h1 class="sub-title">Weather Dashboard</h1>
+          <a class="text git" target="_blank" href="https://github.com/ophza/weather_dashboard.git"><i class="fab fa-github"></i></a>
+          <a class="text site" target="_blank" href="https://ophza.github.io/weather_dashboard/"><i class="fas fa-globe"></i></a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="passGen">
+        <div class="projCard">
+          <h1 class="sub-title">Password Generator</h1>
+          <a class="text git" target="_blank" href="https://github.com/ophza/javascript_password_generator.git"><i class="fab fa-github"></i></a>
+          <a class="text site" target="_blank" href="https://ophza.github.io/javascript_password_generator/"><i class="fas fa-globe"></i></a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="budget_tracker">
+        <div class="projCard">
+          <h1 class="sub-title">Budget Tracker</h1>
+          <a class="text git" target="_blank" href="https://github.com/ophza/budget_tracker.git"><i class="fab fa-github"></i></a>
+          <a class="text site" target="_blank" href="https://evening-wildwood-47580.herokuapp.com/"><i class="fas fa-globe"></i></a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="empty">
+        <div class="projCard">
+          <h1 class="sub-title">Code Quiz</h1>
+          <a class="text git" target="_blank" href="https://github.com/ophza/code_quiz.git"><i class="fab fa-github"></i></a>
+          <a class="text site" target="_blank" href="https://ophza.github.io/code_quiz/"><i class="fas fa-globe"></i></a>
+        </div>
+      </div>
+    </li>
+  </ul>
 </body>
 
 </html>
 
-<!-- Template for the cards -->
-<!-- <div class="col-lg-2">
-  <div class="card h-100 text-white bg-dark mb-3" style="width: 18rem;">
-    <img src="#" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lorem Ipsum</h5>
-      <p class="card-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur. 
-        Nunc non blandit massa enim nec. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. 
-        Dolor morbi non arcu risus quis varius quam quisque id. In arcu cursus euismod quis viverra nibh.
-      </p>
-    </div>
-    <div class="card-footer">
-      <a href="#" class="btn btn-light btn-block cardButton">Website</a>
-      <a href="#" class="btn btn-light btn-block cardButton">Git Repo</a>
+<!--
+Empty Project Card
+
+<li>
+  <div class="empty">
+    <div class="projCard">
+      <h1 class="sub-title">Project Name</h1>
+      <a class="text git" target="_blank" href="#"><i class="fab fa-github"></i></a>
+      <a class="text site" target="_blank" href="#"><i class="fas fa-globe"></i></a>
     </div>
   </div>
-</div> -->
+</li>
+-->

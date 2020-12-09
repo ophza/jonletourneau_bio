@@ -1,0 +1,20 @@
+.empty{
+   background-image: url("../images/placeholder-img.png");
+   background-position: center;
+   background-size: cover;
+}
+.weatherDash{
+   background-image: url("../images/weatherBoard.png");
+   background-position: center;
+   background-size: cover;
+}
+.passGen{
+   background-image: url("../images/passwordGen.png");
+   background-position: center;
+   background-size: cover;
+}
+.budget_tracker{
+   background-image: url("../images/budgetTracker.png");
+   background-position: center;
+   background-size: cover;
+}
