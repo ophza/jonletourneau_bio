@@ -13,7 +13,7 @@ main{
 /* About me div styling */
 .aboutMe{
    height: 635px;
-   width: 1020px;
+   width: 70%;
    position: relative;
    margin-top: 5%;
    margin-bottom: 5%;
@@ -41,10 +41,38 @@ main{
 .abtMeTitle{
    margin-bottom: 30px;
 }
+@media (max-width: 1500px) and (min-width: 1051px){
+   .bio{
+      font-size: 15pt;
+   }
+   .aboutMeImg{
+      width: 70%;
+   }
+}
+@media (max-width: 1050px){
+   .aboutMe{
+      width: 90%;
+      height: 500px;
+      margin-left: 10%;
+      margin-bottom: 15%;
+   }
+   .name{
+      font-size: 40pt;
+   }
+   .location{
+      font-size: 25pt;
+   }
+   .aboutMeBody{
+      margin-left: 5%;
+   }
+   .aboutMeImg{
+      opacity: 0;
+   }
+}
 /* Skills div styling */
 .skills{
    height: 550px;
-   width: 900px;
+   width: 65%;
    position: relative;
    margin-bottom: 5%;
    margin-right: 20%;
@@ -71,4 +99,25 @@ main{
 .icon{
    width: 37px;
    height: 36px;
+}
+@media (max-width: 1500px) and (min-width: 1051px){
+   .skillsImg{
+      width: 80%;
+   }
+}
+@media (max-width: 1050px){
+   .skills{
+      margin-right: 10%;
+      width: 85%;
+   }
+   .skill-title{
+      font-size: 40pt;
+      text-align: center;
+   }
+   .skill-body{
+      left: 30%;
+   }
+   .skillsImg{
+      opacity: 0;
+   }
 }
