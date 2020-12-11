@@ -16,16 +16,17 @@ nav{
    font-family: 'MetroDF', sans-serif;
 }
 .logo{
+   text-decoration: none;
    color: #F2F2F2;
    text-transform: uppercase;
    letter-spacing: 5px;
-   font-size: 12pt;
+   font-size: 18pt;
 }
 .nav-items{
    list-style: none;
    display: flex;
    justify-content: space-around;
-   width: 35%;
+   width: 30%;
 }
 .nav-items a{
    color: #979797;
