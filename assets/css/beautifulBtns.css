@@ -1,4 +1,4 @@
-ul{
+ul.btnContainer{
    position: absolute;
    top: 50%;
    left: 50%;
@@ -7,12 +7,12 @@ ul{
    margin: 0;
    padding: 0;
 }
-ul li{
+ul.btnContainer li.btns{
    list-style: none;
    margin: 0 5px;
 }
 @media (max-width: 1000px){
-   ul{
+   ul.btnContainer{
       position: absolute;
       top: 50%;
       left: 50%;
@@ -21,19 +21,19 @@ ul li{
       margin: 0;
       padding: 0;
    }
-   ul li{
+   ul.btnContainer li.btns{
       list-style: none;
       margin: 50px;
    }
 }
-ul li a .fab, ul li a .fas{
+ul.btnContainer li.btns a .fab, ul.btnContainer li.btns a .fas{
    font-size: 40px;
    color: #2D2D2D;
    line-height: 80px;
    transition: 0.5s;
    padding-right: 14px;
 }
-ul li a span{
+ul.btnContainer li.btns a span{
    padding: 0;
    margin: 0;
    position: absolute;
@@ -43,7 +43,7 @@ ul li a span{
    letter-spacing: 4px;
    transition: 0.5s;
 }
-ul li a{
+ul.btnContainer li.btns a{
    text-decoration: none;
    display: absolute;
    display: block;
@@ -57,14 +57,14 @@ ul li a{
    box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
 }
 @media (max-width: 1000px){
-   ul li a .fab, ul li a .fas{
+   ul.btnContainer li.btns a .fab, ul.btnContainer li.btns a .fas{
       font-size: 20px;
       color: #2D2D2D;
       line-height: 60px;
       transition: 0.5s;
       padding-right: 14px;
    }
-   ul li a span{
+   ul.btnContainer li.btns a span{
       padding: 0;
       margin: 0;
       position: absolute;
@@ -74,7 +74,7 @@ ul li a{
       letter-spacing: 4px;
       transition: 0.5s;
    }
-   ul li a{
+   ul.btnContainer li.btns a{
       text-decoration: none;
       display: absolute;
       display: block;
@@ -88,7 +88,7 @@ ul li a{
       box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
    }
 }
-ul li a:before{
+ul.btnContainer li.btns a:before{
    content: '';
    position: absolute;
    top: 10px;
@@ -99,7 +99,7 @@ ul li a:before{
    transform: 0.5s;
    transform: rotate(0deg) skewY(-45deg);
 }
-ul li a:after{
+ul.btnContainer li.btns a:after{
    content: '';
    position: absolute;
    bottom: -20px;
@@ -110,22 +110,22 @@ ul li a:after{
    transform: 0.5s;
    transform: rotate(0deg) skewX(-45deg);
 }
-ul li a:hover{
+ul.btnContainer li.btns a:hover{
    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
 }
-ul li:hover .fab, ul li:hover .fas{
+ul.btnContainer li.btns:hover .fab, ul.btnContainer li.btns:hover .fas{
    color: #fff;
 }
-ul li:hover span{
+ul.btnContainer li.btns:hover span{
    color: #fff;
 }
-ul li:hover a{
+ul.btnContainer li.btns:hover a{
    background: #2D2D2D;
 }
-ul li:hover a:before{
+ul.btnContainer li.btns:hover a:before{
    background: #474747;
 }
-ul li:hover a:after{
+ul.btnContainer li.btns:hover a:after{
    background: #383838;
 }
