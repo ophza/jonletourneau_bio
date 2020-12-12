@@ -1,20 +1,23 @@
 body{
    background-color: #f2f2f2 !important;
 }
-ul{
+.cardDeck{
    text-align: center;
    display: block;
    padding: 0;
    margin: 0;
    width: 100%;
 }
-ul li{
+.cardDeck li{
    display: inline-block;
    width: 24%;
    margin-top: 10px;
    margin-right: 2.5px;
    margin-left: 2.5px;
    text-align: center;
+   border: solid;
+   border-width: 3px;
+   border-color: #2D2D2D;
 }
 @media (max-width: 1000px) and (min-width: 501px){
    ul li {width: 45%;}
@@ -42,14 +45,12 @@ ul li{
 }
 .projCard{
    position: relative;
-   background: rgba(0, 0, 0, 0);
+   background: rgba(45, 45, 45, 0);
    height: 275px;
    transition: 0.7s;
-   border-style: ridge;
-   border-color: #2D2D2D;
 }
 li:hover .projCard{
-   background: rgba(0, 0, 0, 0.5);
+   background: rgba(45, 45, 45, 0.7);
 }
 li:hover .text{
    color: rgba(242, 242, 242, 1);
