@@ -37,10 +37,10 @@ body{
    left: 0%;
    padding: 5px;
 }
-.fab, .fas{
+.btn .fab,.btn .fas{
    font-size: 50px;
 }
-.text, .sub-title{
+.btn, .sub-title{
    color: rgba(242, 242, 242, 0);
 }
 .projCard{
@@ -52,7 +52,7 @@ body{
 li:hover .projCard{
    background: rgba(45, 45, 45, 0.7);
 }
-li:hover .text{
+li:hover .btn{
    color: rgba(242, 242, 242, 1);
 }
 li:hover .sub-title{
