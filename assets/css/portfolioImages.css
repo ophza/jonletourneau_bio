@@ -18,3 +18,18 @@
    background-position: center;
    background-size: cover;
 }
+.parkDash{
+   background-image: url("../images/portfolio/parkDash.jpg");
+   background-position: center;
+   background-size: cover;
+}
+.campify{
+   background-image: url("https://tinyurl.com/y3has2jl");
+   background-position: center;
+   background-size: cover;
+}
+.pandemicTracker{
+   background-image: url("../images/portfolio/pandemicTracker.png");
+   background-position: center;
+   background-size: cover;
+}
