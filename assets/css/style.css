@@ -6,6 +6,9 @@
 body{
    overflow-x: hidden;
 }
+body::-webkit-scrollbar{
+   display: none;
+}
 /* Styling for navbar */
 nav{
    display: flex;
@@ -38,17 +41,6 @@ nav{
 }
 .nav-items a.current{
    color: #F2F2F2;
-}
-.burger{
-   display: none;
-   cursor: pointer;
-}
-.burger div{
-   width: 25px;
-   height: 3px;
-   background-color: #F2F2F2;
-   margin: 5px;
-   transition: all 0.4s ease;
 }
 @media (max-width: 1000px){
    body{

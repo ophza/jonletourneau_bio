@@ -1,35 +1,18 @@
 .empty{
-   background-image: url("../images/portfolio/placeholder-img.png");
-   background-position: center;
-   background-size: cover;
+   background-image: url("../images/portfolio/placeholder.png");
 }
 .weatherDash{
    background-image: url("../images/portfolio/weatherBoard.png");
-   background-position: center;
-   background-size: cover;
 }
-.passGen{
+.passwordGen{
    background-image: url("../images/portfolio/passwordGen.png");
-   background-position: center;
-   background-size: cover;
 }
-.budget_tracker{
+.budgetTracker{
    background-image: url("../images/portfolio/budgetTracker.png");
-   background-position: center;
-   background-size: cover;
 }
 .parkDash{
    background-image: url("../images/portfolio/parkDash.jpg");
-   background-position: center;
-   background-size: cover;
-}
-.campify{
-   background-image: url("https://tinyurl.com/y3has2jl");
-   background-position: center;
-   background-size: cover;
 }
 .pandemicTracker{
-   background-image: url("../images/portfolio/pandemicTracker.png");
-   background-position: center;
-   background-size: cover;
+   background-image: url("../images/portfolio/pandemicTracker.png")
 }
