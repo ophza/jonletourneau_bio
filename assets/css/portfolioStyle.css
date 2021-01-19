@@ -12,7 +12,7 @@
    grid-template-areas: "image" "text" "btns";
    margin: 2vw;
    border-radius: 20px;
-   background: white;
+   background: #F2F2F2;
    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
    text-align: center;
 }
@@ -25,15 +25,15 @@
 }
 .card-text{
    grid-area: text;
-   margin: 25px;
-}
-.card-text p{
-   font-size: 12px;
-   font-weight: 200;
-   margin-top: 20px;
 }
 .card-text h2{
-   font-size: 25px;
+   font-size: 30px;
+   margin-top: 2vh;
+}
+.card-text p{
+   font-size: 14px;
+   font-weight: 200;
+   margin-top: 1.25vh;
 }
 .card-btns{
    grid-area: btns;
@@ -51,7 +51,7 @@
    flex-direction: column;
    padding: 10px;
    text-decoration: none;
-   color: white;
+   color: #F2F2F2;
 }
 .btn .icon{
    font-size: 20px;
@@ -68,18 +68,22 @@
    position: relative;
    display: inline-block;
 }
+.tooltip:hover{
+   cursor: pointer;
+}
 .tooltip .tooltiptext{
    visibility: hidden;
    width: 250px;
-   background-color: brown;
-   color: white;
+   background-color: #2D2D2D;
+   color: #F2F2F2;
    text-align: center;
+   font-size: 12px;
    padding: 5px 0;
    border-radius: 6px;
 
    position: absolute;
    z-index: 1;
-   top: 125%;
+   top: 250%;
    left: 50%;
    margin-left: -125px;
 
@@ -94,7 +98,7 @@
    margin-left: -5px;
    border-width: 5px;
    border-style: solid;
-   border-color: transparent transparent brown transparent;
+   border-color: transparent transparent #2D2D2D transparent;
 }
 .tooltip:hover .tooltiptext{
    visibility: visible;

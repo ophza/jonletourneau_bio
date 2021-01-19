@@ -1,0 +1,40 @@
+.card{
+   margin-top: 5vh;
+   margin-left: 2.5vw;
+   margin-right: 2.5vw;
+   text-align: center;
+
+   border-style: solid;
+   border-color: #2D2D2D;
+
+   background-color: #2D2D2D;
+   color: #F2F2F2;
+}
+.card-image{
+   width: 93.5vw;
+   height: 20vh;
+   background-position: center;
+   background-size: cover;
+}
+.card-text h2{
+   margin-top: 2vh;
+   font-size: 25px;
+}
+.card-text p{
+   margin-top: 1vh;
+   margin-bottom: 3vh;
+   font-size: 16px;
+}
+.card-btns{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.card-btns .btn{
+   text-decoration: none;
+   color: #F2F2F2;
+}
+.tooltiptext{
+   visibility: hidden;
+   position: absolute;
+}
